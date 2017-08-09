@@ -1,4 +1,5 @@
 package etec.zl.Login;
+import java.awt.Color;
 import java.awt.Container;
 import java.awt.GridLayout;
 
@@ -36,6 +37,7 @@ public class App extends JFrame
 		btnVerificar.setBounds(290,120,100,20);
 		tela.add(btnVerificar);
 		
+		tela.setBackground(Color.white);
 		setLayout(null);
 		setVisible(true);
 		setLocationRelativeTo(null);
